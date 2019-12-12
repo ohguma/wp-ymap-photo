@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: WP Yahoo! Map Photo Album
-Description: Photos to be displayed on the Yahoo! map with GPS information for each post.
+Plugin Name: WP Yahoo! Map Photo
+Description: 添付写真の経緯度情報からYahoo!地図を表示し、地図中に写真をピン留め表示する。
 Author: ohguma
 Version: 1.0
 */

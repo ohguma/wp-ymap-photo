@@ -8,19 +8,19 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 5.3
 
-�Y�t�ʐ^�̌o�ܓx��񂩂�Yahoo!�n�}��\�����A�n�}���Ɏʐ^���s�����ߕ\������B
+添付写真の経緯度情報からYahoo!地図を表示し、地図中に写真をピン留め表示する。
 
 == Description ==
 
-* �L���ɓY�t����ʐ^�Ɍo�ܓx��񂪂���ꍇ�A���̂��ׂĂ̏ꏊ�����܂�T�C�Y�E�k�ڂ�Yahoo!�n�}��\������B
-* �ʐ^���Ƀs���摜��\�����A�s���摜���N���b�N����Ǝʐ^�𐁂��o���\������B
-* �uexif_read_data()�v�֐����K�v�B
+* 記事に添付する写真に経緯度情報がある場合、そのすべての場所が収まるサイズ・縮尺のYahoo!地図を表示する。
+* 写真毎にピン画像を表示し、ピン画像をクリックすると写真を吹き出し表示する。
+* 「exif_read_data()」関数が必要。
 
 
 == Installation ==
 
-1. Yahoo Japan!�f�x���b�p�[�l�b�g���[�N�ŁA�A�v���P�[�V����ID���擾����B https://developer.yahoo.co.jp/start/ 
-2.�u�ݒ�v�́uYahoo!�n�} Photo Album�ݒ�v����A�A�v���P�[�V����ID��o�^����B
+1. Yahoo Japan!デベロッパーネットワークで、アプリケーションIDを取得する。 https://developer.yahoo.co.jp/start/ 
+2.「設定」の「Yahoo!地図 Photo Album設定」から、アプリケーションIDを登録する。
 
 
 == Frequently asked questions ==
